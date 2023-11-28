@@ -1,43 +1,46 @@
 //Level System; Begginer Dev
 
-let name = "Aldrich"
-let Xp = 0
+let name = ""
+let Xp = 10023
+let rank = ""
+
+name = "Nickname"
 
 switch (true){
     
     case Xp <= 1000:
-    console.log("The hero " + name + " are at Iron Rank")
+        rank = "Iron"
     break
     
     case Xp >= 1001 && Xp <= 2000:
-    console.log("The hero " + name + " are at Bronze Rank")
+        rank = "Bronze"
     break
 
     case Xp >= 2001 && Xp <= 5000:
-    console.log("The hero " + name + " are at Silver Rank")
+        rank = "Silver"
     break
 
     case Xp >= 5001 && Xp <= 7000:
-    console.log("The hero " + name + " are at Gold Rank")
+        rank = "Gold"
     break
 
     case Xp >= 7001 && Xp <= 8000:
-    console.log("The hero " + name + " are at Platinum Rank")
+        rank = "Platinum"
     break
 
     case Xp >= 8001 && Xp <= 9000 :
-    console.log("The hero " + name + " are at Diamond Rank")
+        rank = "Diamond"
     break
 
     case Xp >= 9001 && Xp <= 10000 :
-    console.log("The hero " + name + " are at Imortal Rank")
+        rank = "Imortal"
     break
 
     case Xp >= 10001 :
-    console.log("The hero " + name + " are at God Rank")
+        rank = "God"
     break  
-}   
-
+}    
+console.log("The hero " + name + " are at " + rank + " Level")
 
 
 
