@@ -1,7 +1,7 @@
 //Level System; Begginer Dev
 
 let name = ""
-let Xp = 10023
+let Xp = 0
 let rank = ""
 
 name = "Nickname"
